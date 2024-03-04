@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        nav{
+            text-align: center;
+           
+            position: sticky;
+            top: 0;
+            background-color: black;
+            height: 50px;
+        }
+        nav a{
+            margin-left: 20px;
+            font-size: large;
+            color: coral;
+            text-transform: uppercase;
+            padding: 10px;
+            
+            
+        }
+        nav a:hover{
+            color: chartreuse;
+           
+            
+        }
+       
+        body{
+
+            background-image: url(https://img.freepik.com/premium-photo/white-office-room-interior-with-glass-wall-city-view-background-generative-ai_1645-1950.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+          
+            
+
+        }
+        footer{
+            /* position: absolute;
+            bottom: 0;
+            background-color: #373b3b;
+            width: 100%;
+            color: white; */
+
+             /* Fixed position */
+            bottom: 0;
+            background-color: #373b3b;
+            width: 100%;
+            color: white;
+        
+        }
+        .container{
+            display: flex;
+            
+
+        }
+        .first{
+            flex-grow: 1;
+            width: 35%; 
+            padding-left: 100px; 
+        }
+        .second{
+            flex-grow: 2; 
+            width: 30%;
+            
+        }
+        .third{
+            flex-grow: 3; 
+            width: 35%;
+            padding-left: 50px;
+            
+        }
+        a{
+           color: chartreuse; 
+        }
+        body .container
+        {
+            display: flex;
+        
+        }
+        .container .a,.b{
+            color: rgb(199, 233, 10);
+            width: fit-content;
+            border: 2px solid rgb(2, 2, 13);
+            display: inline-block;
+            padding: 20px;
+            font-size: large; 
+            background-color: rgb(150, 164, 164);
+            
+            
+        }
+        input.Search{
+            background: transparent url("/assets/search.svg")
+            no-repeat 13px;
+            width: 300px;
+            height: 30px;
+        }
+    
+        .services:hover{
+            color: white;
+        }
+
+
+        @keyframes lightning {
+            0% { opacity: 0; }
+            50% { opacity: 1; }
+            100% { opacity: 0; }
+        }
+
+        .a,.b {
+            animation: lightning 1s infinite; /* Adjust the animation duration as needed */
+        }
+    </style>
+
+
+</head>
+<body>
+    <div>
+        
+        <nav>
+            <a style="color: rgb(251, 5, 5);  text-transform: uppercase; padding-right: 300px;"> @CodeSoft</a>
+            <input class="Search" type="search" placeholder="Search......." style="color: white; margin-top: 10px;"></input>
+            <a>Home</a>
+            <a>Career</a>
+            <a>Our Services</a>
+            <a>Projects</a>
+            <a>About Us</a>
+        </nav>
+        <div style="background-image: url(https://media.istockphoto.com/id/1337780100/vector/computer-technology-isometric-illustration-pc-laptop-phone-on-desk-tech-symbols-design.jpg?s=612x612&w=0&k=20&c=XEkmUxUN2Nbv1Kp6yiKl4atKMR96RhHSo0vNWJZmDm8=); 
+        height: 500px; background-repeat: no-repeat;background-size:100%;">
+
+        </div>
+
+        <h1 style="color: darkred;padding-left: 200px;">Projects :</h1>
+        <div class="container">
+            <div style="padding-left: 250px; width: 30%;">
+            <div class="a">
+                <h2 style="color: rgb(72, 5, 242);">Landing Pages :</h2>
+                <p> I believe with the right website, Beanpole Bling has got what it takes to be a favorite in the jewelry industry. 
+                    My USP is clear I am an eco-friendly, environmentally-conscious, 100% recycled brand. 
+                    Every piece of jewelry is completely custom, with no two pieces looking the same. When my customers buy with Beanpole Bling, 
+                    they are effectively reducing throwaway culture, and instead investing in a sustainable source of beautiful accessories.</p>
+            </div>
+        </div>
+        <div style="padding-left: 100px; width: 30%;">
+            <div class="b">
+                <h2 style="color: rgb(46, 6, 249);">E-commerce Website :</h2>
+                <p> E-commerce Website: Develop an online store where users can browse products, add them to their cart, and make purchases. 
+                    Implement features like user authentication, product search and filtering, payment gateway integration, and order tracking. 
+                    You can use platforms like Shopify or WooCommerce, or build from scratch using frameworks like Django or Express.js.
+                    Product listings with images, descriptions and filtering by category, price, etc.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div style="padding-left: 250px; padding-top: 100px; width: 30%;">
+        <div class="a">
+            <h2 style="color: rgb(15, 7, 240);">Job Board :</h2>
+            <p> Job Board: Develop a job board where employers can post job listings and job seekers can search and apply for jobs. 
+                Include features like user authentication, job search and filtering, job alerts, and application tracking.
+                 You can use frameworks like Ruby on Rails or Express.js for the back-end and React or Angular for the front-end.
+                 Ratings and reviews for products and sellers.</p>
+        </div>
+    </div>
+    <div style="padding-left: 100px;padding-top: 100px;width: 30%;">
+        <div class="b">
+            <h2 style="color: rgb(54, 6, 247);">Online Learning Platform :</h2>
+            <p> Online Learning Platform: Build a platform for online courses where users can sign up, enroll in courses, watch video lectures, 
+                complete quizzes, and earn certificates. Include features like user authentication, course search and filtering, 
+                progress tracking, and payment integration. You can use frameworks like Laravel or Flask for the back-end and 
+                React or Vue.js for the front-end.</p>
+        </div>
+    </div>
+</div>
+
+<div style="margin-left: 80px;margin-right: 80px;  background-color: cadetblue; font-size: 30px; height: 500px; border: solid 5px rgb(155, 8, 234); margin-top: 100px;">
+    <h2 style="color: orangered;">Our Services :</h2>
+    <div>
+        <p style="font-size: 25px;" class="services">Sure, here's a concise list of web development services:<br/><br/>
+            1.Custom Website Development<br/>
+            2.E-commerce Development<br/>
+            3.Content Management System (CMS) Development<br/>
+            4.Web Application Development<br/>
+            5.Responsive Web Design<br/>
+            6.Front-end Development<br/>
+            7.Back-end Development<br/>
+            8.API Development and Integration<br/>
+            9.Web Hosting and Maintenance<br/>
+            10.Search Engine Optimization (SEO)<br/>
+            These services cover the spectrum of building, managing, and optimizing websites and web applications for clients.
+            </p>
+    </div>
+</div>
+
+<div style="padding-top: 100px;">
+    <footer>
+       <div class="container">
+                <div class="first">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="second">
+                    <h3>Products</h3>
+                    <ul>
+                        <li><a href="#">Desktop Apps</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="third">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+        </div>
+
+                <div>
+                    <h3 style="text-align: center; color:red; font-size: larger;" >#CodeSoft</h3>
+                    <p style="text-align: center;">Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                </div>
+                <div style="text-align: center;">
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" style="width: 40px;"></img></a>
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Facebook_logo_%28square%29.png" style="width: 40px;"></img></a>
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" style="width: 40px;"></img></a>
+                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" style="width: 40px;"></img></a>
+                </div>
+           
+                <p style="text-align: center;">CodeSoft © 2024</p>
+
+       
+    </footer>
+  </div>
+ </body>
+</html>
